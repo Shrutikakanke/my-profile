@@ -4,48 +4,147 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      #resume{
+        color: olive;
+        font-weight: bolder;
+      }
+      heading{
+        color: blueviolet;
+        font-style: italic;
+      }
+      .span{
+        color: black;
+        font-weight: bold;
+      }
+      .a{
+        text-decoration: none;
+      }
+
+    </style>
   </head>
   <body>
     <!--Header Section-->
     <header>
         <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-          </svg>&nbsp;Shruti kanke &nbsp;&nbsp;&nbsp;
+          </svg>&nbsp;<span class="span">Shruti kanke </span>&nbsp;&nbsp;&nbsp;
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-             </svg>&nbsp; 9307 2016 49&nbsp;&nbsp;&nbsp;
+             </svg>&nbsp; <span class="span">9307 2016 49</span>&nbsp;&nbsp;&nbsp;
 
           
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-          </svg>&nbsp;kankeshrutika@gmail.com</p>
+
+        </svg>&nbsp;<span class="span">kankeshrutika@gmail.com</span> &nbsp;&nbsp;&nbsp;<a href="assets/resume.pdf"download id="resume"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-arrow-down-fill" viewBox="0 0 16 16">
+          <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5"/>
+        </svg> Resume</a>   </p> 
+        
     </header>
 
     <!--Navigation section-->
     <nav>
-        <a href="#home">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">OTHERS</a>
+        <a href="#home" class="a">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#techStack"class="a">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#projects"class="a">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#education"class="a">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#personalDetails.html"target="_blank"class="a">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#others"target="_blank"class="a">OTHERS</a>
     </nav>
     <!--Main section-->
     <section>
         <!--HOME SECTION-->
         <section id="home">
-            <h2>Professional Summary</h2>
+     <h2 class="heading">Professional Summary</h2>
             <ul>
                 <li>Having 1 year of experience in developing single page web application using Angular & HTML5,CSS3,Bootstrap5,javascript</li>
-                <li>Experience on  version control system GIT & GITHub .</li>
-                <li> Experience working with JIRA for user stories and bug tracking .</li>
-                <li>strong Debugging & Troublshootin code experience using chrome developer tool.</li>
-                <li>Working exposure on ID's like vs code & Notepad++ </li>               <li>Good working experience under Agile methodologies enviromnent</li>
-                <li>Experience in using chrome developer tool for Debugging and Troublshooting the code</li>
-                <li>knowldge of NodeJS</li> 
-                <li>Ability to work with people at all levles in the program</li>
+                <li style="color: blue;">Experience on  version control system GIT & GITHub .</li>
+                <li style="color: blue;"> Experience working with JIRA for user stories and bug tracking .</li>
+                <li>strong Debugging & Troubleshooting code experience using chrome developer tool.</li>
+                <li style="color: blue;">Working exposure on ID's like vs code & Notepad++ </li>          
+                <li>Good working experience under Agile methodologies environment</li>
+                <li>Experience in using chrome developer tool for Debugging and Troubleshooting the code</li>
+                <li>knowledge of NodeJS</li> 
+                <li style="color: brown;font-style: italic;;">Ability to work with people at all levels in the program</li>
              </ul> 
         </section>
+        <hr>
+        <section id="techStack">
+        <h2 class="heading">My Technology stack is</h2>
+        <table border="5">
+          <tbody>
+            
+            <th>Sr.No</th>
+            <th>Technology Stack</th>
+            <th>Rating</th>
+            <tr>
+              <td>1</td>
+              <td>HTML</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>CSS</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>javascript</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>React</td>
+              <td>3</td>
+            </tr>
+      
+          </tbody>
+
+        </table>
+        </section>
+        <hr>
+        <section id="projects">
+         <h2 class="heading">Projects</h2>
+         
+          
+    <hr>
+    <p> <strong>Name:&nbsp; <u>Student Management</u></strong><br><br>
+         <strong><u>Environment</u>:</strong> Angular,React,Java,Javascript,Html,Css,Bootstrap,Github,Agile and Jira <br>
+        <br><br> <strong>Team Size:</strong>06<strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Duration:</strong>2021-1<sup>st</sup>-july
+         till <u><i>present</i></u><br><br> <strong>Project Description:</strong> This project is mainly used for student management
+         in colleges,where it helps to manage student records like <br>student registration student update and to see all the list of 
+         academic like score card and attendances
+         <hr>
+         <h2>Roles and Responsibilities</h2><br>
+         <ul>
+            <li>Designed and Implemented the user interface using HTML5 and CSS3</li>
+            <li>Work closely with backend developers for code integration</li>
+            <li>Identifying and troubleshooting issues in frontend code</li>
+            <li>Work in GIT as a version control</li>
+            <li>Used JIRA for bug tracking</li>
+            <li>Implemented project using Agile SCRUM methodology,Involved in daily stand up meetings,sprint showcase and sprint retrospective</li>
+            <li>Involved in fixing technical issues</li>
+
+         </ul>
+        
+    </p>
+    
+        </section>
+        <hr>
+        <section id="education">
+          <h2>Education</h2>
+        </section>
+        <hr>
+        <section id="personalDetails.html">
+          <h2>PersonalDetails</h2>
+        </section>
+        <hr>
+        <section id="others">
+          <h2>Others</h2>
+        </section>
+
     </section>
 
     <!--Footer section-->
