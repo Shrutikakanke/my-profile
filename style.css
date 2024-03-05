@@ -1,0 +1,42 @@
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto",sans-serif;
+    }
+      #resume{
+        color: olive;
+        font-weight: bolder;
+      }
+       .heading{
+        color: blueviolet;
+        font-style: italic;
+      }
+      #experience{
+        font-weight: bolder;
+      }
+      .tech{
+        color: aqua;
+      }
+      .a{
+        text-decoration: none;
+        color: rgb(1, 14, 9);
+        margin: 20px 20px 20px 20px;
+        padding: 10px;
+      }
+      .header-info{
+        padding: 10px;
+        background-color: rgba(127, 255, 212, 0.463);
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      #resume{
+        
+        padding: 10px;
+        background-color: rgba(127, 255, 212, 0.463);
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
